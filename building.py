@@ -10,3 +10,4 @@ length = 6
 blockType = 4
 air = 0
 mc.setBlocks(x, y, z, x + width, y + height, z + length, blockType)
+mc.setBlocks(x +1 , y +1 , z +1, x + 9, y + 4, z + 5, 0)
