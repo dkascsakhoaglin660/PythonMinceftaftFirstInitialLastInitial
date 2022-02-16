@@ -6,7 +6,7 @@ answer = input("Create a crater? Y/N  ")
 
 if answer == "Y":
     pos = mc.player.getPos()
-    mc.setBlocks(pos.x + 5, pos.y + 5, pos.z + 5, pos.x - 5, pos.y - 5, pos.z - 5,0)
+    mc.setBlocks(pos.x + 99, pos.y + 4, pos.z + 4, pos.x - 99, pos.y - 4, pos.z - 4,0)
     mc.postToChat("Psalm loves Minecraft, BOOM!")
 
 elif answer == "N":
